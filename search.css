@@ -1,0 +1,640 @@
+@charset "UTF-8";
+/* CSS Document */
+h1{
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+h1.searchtit{
+	background: url("/common/image/icon-search.png") no-repeat left center;
+    padding-left: 70px;
+    display: inline-block;
+    line-height: 2em;
+    height: 60px;
+    background-size: 60px;
+    font-size: 28px;
+    font-weight: 100;
+}
+h2.searchListtit {
+    background: url("/common/image/icon-loupe.png") no-repeat left center;
+    padding-left: 40px;
+    display: inline-block;
+    margin-top: 0;
+}
+#header .headerMain a{
+	color:#666;
+	text-shadow: none;
+} 
+#header .headerMain a:hover{
+	color: #fff;
+}   
+#header .headerMain{
+	background-color: #ffea00;
+	height: 50px;
+}
+.mainContent {
+    margin: 120px auto 0 auto;
+}
+.searchBoxsub {
+    background-color: #f6f6f8;
+    padding: 30px 30px 5px 30px;
+    margin-bottom: 30px;
+}
+.btn p{
+	min-height: 20px;
+}
+.btn p a{
+    min-width: 180px;
+    height: 30px;
+    min-height: 0;
+    padding: 5px 10px;
+}
+.mainContent .mainColumn .searchList .searchListbox {
+    background-color: #fff;
+    border: solid 5px  #f6f6f8;
+    border-left: solid 5px #ffea00;
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.mainContent .mainColumn .searchList .searchthumbnail{
+width: 198px;
+/*     height: 131px; */
+        height: auto;
+    font-size: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    border: solid 1px #d0d1d4;
+}
+.mainContent .mainColumn .searchList .searchListbox .recommended{
+	    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 9999;
+}
+.mainContent .mainColumn .searchList .searchthumbnail img{
+width: 198px;
+    height: auto;
+    /* border: solid 1px #d0d1d4; */
+}
+.mainContent .mainColumn .searchList .searchthumbnail,
+.mainContent .mainColumn .searchList .searchinfo,
+.mainContent .mainColumn .searchList .searchbtn,
+.mainContent .mainColumn .searchList .searchtagicon{
+	float:left;
+}
+.mainContent .mainColumn .searchList .searchinfo,
+.mainContent .mainColumn .searchList .searchtagicon{
+	width: 610px;
+
+}
+.mainContent .mainColumn .searchList .searchinfo h3{
+	float: left;
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchprefecture{
+	    float: right;
+    background: url("/common/image/icon-pin.png") no-repeat left center;
+    padding-left: 20px;
+  
+    background-size: 15px;
+    font-size: 12px;
+    /* line-height: 1.5em; */
+}
+p.searchprefecturezenkoku{
+	display: none;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchother{
+	  font-size: 12px;
+	  margin-bottom: 5px;
+}
+
+.mainContent .mainColumn .searchList .searchinfo .searchdetail{
+	/*
+border-bottom: solid 1px #f6f6f8;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+*/
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan{
+	border-top: solid 1px #f6f6f8;
+	padding-top: 10px;
+	margin-top: 5px;	
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li{
+	float: left;
+	width: 50%;
+	margin-bottom: 10px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li:only-child{
+	width: 100%;
+}
+
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div{
+	float: left;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.planname{
+	width: 50px;
+    height: 40px;
+    background-color: #ffea00;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 5px 10px 5px;
+    line-height: 1.5em;
+    margin-right: 10px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.commission{
+width: 75%;
+	font-size: 12px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.commission span{
+    font-weight: bold;
+	color: #ff9c00;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.plantitle{
+	    width: 75%;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.plandetail{
+	display: none;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchicon li{
+	float: left;
+	margin-right: 10px;
+	font-size: 0;
+}
+.searchiconex {
+    background-color: #f6f6f8;
+    padding: 30px 30px 10px 30px;
+}
+.searchiconex h4{
+	font-size: 16px;
+	 font-weight: bold;
+	 margin-bottom: 20px;
+}
+.searchiconex .searchicon li{
+	float: left;
+	margin-right: 10px;
+	font-size: 0;
+	margin-bottom: 10px;
+	width: 130px;
+	height: 40px;
+}
+.searchiconex .searchicon li img{
+	float: left;
+}
+.searchiconex .searchicon li p{
+	    font-size: 12px;
+    float: left;
+    line-height: 3em;
+    margin-left: 5px;
+}
+.searchswitching{
+	display: none;
+}
+.btn {
+    margin-top: 0;
+}
+/* 無いタグを選択した場合 */
+.searchtagicon>a{
+	background: url("http://placehold.it/40x40/FFF6CE/ffffff") no-repeat left center;
+     height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    display: block;
+    font-size: 0;
+    float: left;
+    background-size: 40px !important;
+}
+/* 24時間対応  */  
+.searchtagicon .nizyuu{background: url("/common/image/icon-tag01.png") no-repeat left center;}
+/* SEO対策 */
+.searchtagicon a.seo{background: url("/common/image/icon-tag02.png") no-repeat left center;}
+/* トラブル対応  */
+.searchtagicon a.toraburu{background: url("/common/image/icon-tag03.png") no-repeat left center;}
+/* 内装相談 */
+.searchtagicon a.naisou{background: url("/common/image/icon-tag04.png") no-repeat left center;}
+/* 問い合わせ対応 */
+.searchtagicon a.toiawase{background: url("/common/image/icon-tag05.png") no-repeat left center;}
+/* 宿泊料金調整 */
+.searchtagicon a.ryoukinn{background: url("/common/image/icon-tag06.png") no-repeat left center;}
+/* 掃除手配 */
+.searchtagicon a.souzi{background: url("/common/image/icon-tag07.png") no-repeat left center;}
+/* 許可物件紹介 */
+.searchtagicon a.syoukai{background: url("/common/image/icon-tag08.png") no-repeat left center;}
+/* 資料作成  */
+.searchtagicon a.siryou{background: url("/common/image/icon-tag09.png") no-repeat left center;}
+/* 運用丸投げ */
+.searchtagicon a.marunage{background: url("/common/image/icon-tag10.png") no-repeat left center;}
+/* 運用相談 */
+.searchtagicon a.unnyou{background: url("/common/image/icon-tag11.png") no-repeat left center;} 
+/* 鍵受け渡し */
+.searchtagicon a.kagi{background: url("/common/image/icon-tag12.png") no-repeat left center;}
+/* 許可申請代行 */
+.searchtagicon a.kyoka{background: url("/common/image/icon-tag13.png") no-repeat left center;}
+/* ゴミ回収 */
+.searchtagicon a.gomi{background: url("/common/image/icon-tag14.png") no-repeat left center;}
+.searchBoxsub .searchBoxsubtxt{
+	width: 100%;
+	text-align: center;
+}
+.searchBoxsub select{
+	width: 20%;
+}
+.searchBoxsub .keyword{
+	width: 77%;
+}
+.searchBoxsub .searchBoxsubcheck{
+	margin-top: 10px;
+/*
+	padding-top: 10px;
+	border-top: solid 1px #d0d1d4;
+*/
+	font-size: 16px;
+}
+.searchBoxsub .searchBoxsubcheck div{
+	margin-bottom: 10px;
+}
+
+.searchBoxsub .searchBoxsubcheck p{
+	    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.searchconditions{
+	margin-top: 20px;
+}
+
+.searchconditions p{
+	border-bottom: solid 1px #d0d1d4;
+	padding: 10px 0;
+}
+.searchconditions p:first-child{
+	border-top: solid 1px #d0d1d4;	
+}
+.searchconditions .searchconditionslink{
+	border: none;
+	text-decoration: underline;
+}
+.noresult p{
+	margin-bottom: 20px;
+    font-size: 16px;
+    color: #ff9c00;
+    text-align: center;
+}
+
+.search_bnr{max-width:720px; margin: 0 auto 20px auto;}
+
+
+
+input[type=radio],
+input[type=checkbox] {
+    display: inline-block;
+    margin-right: 6px;
+}
+input[type=radio] + label,
+input[type=checkbox] + label {
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+    line-height: 1.5px;
+    cursor: pointer;
+}
+ 
+@media (min-width: 1px) {
+    input[type=radio],
+    input[type=checkbox] {
+        display: none;
+        margin: 0;
+    }
+    input[type=radio] + label,
+    input[type=checkbox] + label {
+        padding: 0 0 0 24px;
+    }
+    input[type=radio] + label::before,
+    input[type=checkbox] + label::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+		-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin-top: -9px;
+        background-color: white;
+    }
+    input[type=radio] + label::before {
+        border: solid 1px #d0d1d4;
+        border-radius: 30px;
+    }
+    input[type=checkbox] + label::before {
+        border: solid 1px #d0d1d4;
+        border-radius: 2px;
+    }
+    input[type=radio]:checked + label::after,
+    input[type=checkbox]:checked + label::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: block;
+    }
+    input[type=radio]:checked + label::after {
+        left: 5px;
+        width: 8px;
+        height: 8px;
+        margin-top: -4px; 
+        background: #ffea00;
+        border-radius: 8px;
+    }
+    input[type=checkbox]:checked + label::after {
+        left: 3px;
+        width: 16px;
+        height: 8px;
+        margin-top: -8px;
+        border-left: 3px solid #ffea00;
+        border-bottom: 3px solid #ffea00;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}
+
+.navigation{
+	margin-top: 30px;
+	margin-bottom: 50px;
+    text-align: right;
+}
+
+.navigation .wp-pagenavi span.pages{
+	background: none;
+}
+.navigation .wp-pagenavi span,.navigation .wp-pagenavi a{
+	border: none;
+	background: #fff150;
+	/* color: #fff; */
+	padding: 10px;
+	border-radius: 2px;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+}
+.navigation .wp-pagenavi a:hover{
+color: #666;
+	opacity: 0.7;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+}
+
+.mainContent .mainColumn .searchList .searchtagicon{
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 980px){
+.mainContent .mainColumn .searchList .searchthumbnail{
+	height: auto;
+	margin-bottom: 20px;
+}
+.btn p {
+    max-width: inherit;
+    }
+.mainContent .mainColumn{
+	width: auto;
+    margin: 30px 4% 0 4%;;
+}
+.mainContent .mainColumn .searchList .searchListbox {
+    padding: 4%;
+}
+.mainContent .mainColumn .searchList .searchthumbnail,
+.mainContent .mainColumn .searchList .searchbtn{
+    width: 32%;
+}
+.mainContent .mainColumn .searchList .searchinfo,
+.mainContent .mainColumn .searchList .searchtagicon{
+    width: 63%;
+}
+.searchtagicon>a {
+    margin-bottom: 10px;
+}
+.btn{
+	margin-top: 0;
+}
+.btn li{
+	width: 100%;
+}
+.btn p{
+	width: 100%;
+}
+.btn p a{
+	min-width: 0;
+}
+.searchthumbnail img{
+	width: 100% !important;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li{
+	float: none;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.plandetail{
+	width: 60%;
+}
+.searchBoxsub .keyword {
+    width: 70%;
+}
+.searchiconex .searchicon li {
+    width: 150px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.plantitle,
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.commission{
+	width: 80%;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.planname {
+
+ /*
+   height: 30px;
+    padding: 5px 5px 5px 5px;
+    line-height: 1.4em;
+*/
+}
+
+}
+@media screen and (max-width : 700px){
+
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.plantitle, .mainContent .mainColumn .searchList .searchinfo .searchplan li div.commission {
+    width: 75%;
+}
+.mainContent .mainColumn .searchList .searchinfo:last-child{
+	width: 100%;
+}
+}
+@media screen and (max-width : 500px){
+
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.plantitle, .mainContent .mainColumn .searchList .searchinfo .searchplan li div.commission {
+    width: 74%;
+}
+.mainContent .mainColumn {
+    width: auto;
+    margin: 0 2%;
+}
+.mainContent .mainColumn .searchList .searchListbox {
+    position: relative;
+    padding-bottom: 50px;
+        border: solid 5px #f6f6f8;
+    border-top: solid 5px #ffea00;
+}
+.mainContent {
+    margin: 90px auto 0 auto;
+}
+.searchBoxsub {
+    padding: 5% 5% 5px 5%;
+}
+.searchBoxsub select{
+	min-width: 30%;
+    width: 30%;
+    font-size: 14px;
+}
+.searchBoxsub .keyword {
+    width: 62%;
+        font-size: 14px;
+}
+.searchBoxsub .searchBoxsubcheck p {
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 4px;
+    font-size: 12px;
+    width: 45%;
+}
+.searchBoxsub .button{
+	height: 35px;
+    width: 100%;
+    font-size: 14px;
+}
+.searchconditions p {
+    font-size: 12px;
+}
+
+
+h1{
+	font-size: 16px;
+}
+h1.searchtit {
+    line-height: 1.5em;
+    font-size: 20px;
+}
+.mainContent .mainColumn .searchList .searchthumbnail {
+    width: 100%;
+}
+.searchthumbnail img {
+    /* width: 60%; */
+    display: block;
+    margin: 0 auto;
+}
+.mainContent .mainColumn .searchList .searchinfo {
+    width: 100%;
+}
+.mainContent .mainColumn .searchList .searchinfo {
+    margin-left: 0;
+}
+.mainContent .mainColumn .searchList .searchinfo h3 {
+   font-size: 18px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchprefecture{
+   font-size: 12px;
+   margin-bottom: 5px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchdetail{
+	    font-size: 12px;
+    margin-top: 5px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchplan li div.plandetail {
+    width: 48%;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchicon li {
+    width: 30px;
+}
+.mainContent .mainColumn .searchList .searchinfo .searchicon li img{
+    width: inherit;
+}
+.btn{
+	position: absolute;
+	bottom: 0;
+	    margin-left: -4%;
+}
+.btn p a{
+	border-radius: 0;
+}
+.searchiconex .searchicon li{
+    height: 30px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-right: 0px;
+}
+.searchiconex .searchicon li img{
+	height: inherit;
+	width: initial;
+}
+.searchiconex {
+    padding: 4% 4% 0 4%;
+}
+h2.searchListtit{
+	float: left;
+	height: 33px;
+}
+.searchswitching{
+	display: block;
+	float: right;
+	 margin: 0 0 20px 0;
+
+}
+.searchswitching div{
+	float: left;
+	margin-left: 10px;
+}
+.searchswitching div.active img{
+	opacity: 0.5;
+		-webkit-transition: .3s;
+    transition: .3s;
+}
+.searchimg.searchimg-none{
+	display: none;
+}
+.mainContent .mainColumn .searchList .searchtagicon{
+	margin-left: 0;
+	width: 100%;
+}
+.navigation{
+	text-align: left;
+}
+.prev {
+    width: 150px;
+    float: left;
+    text-align: left;
+}
+.next {
+    width: 150px;
+    float: right;
+    text-align: right;
+}
+.searchthumbnail img {
+    /* width: 60%; */
+    display: block;
+    margin: 0 auto;
+   /*  margin-bottom: 10px; */
+}
+.searchtagicon>a{
+	background-size: 30px !important;
+	width: 30px;
+	height: 30px;
+}
+}
